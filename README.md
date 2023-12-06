@@ -40,13 +40,13 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
    
     4.2. [Expressions and Functions](#42-expressions-and-functions)
    
-        - 4.2.1. [Expressions in Terraform](#421-expressions-in-terraform)
+    - 4.2.1. [Expressions in Terraform](#421-expressions-in-terraform)
    
-        - 4.2.2. [Functions in Terraform](#422-functions-in-terraform)
+    - 4.2.2. [Functions in Terraform](#422-functions-in-terraform)
    
-        - 4.2.3. [Expression and Function Best Practices](#423-expression-and-function-best-practices)
+    - 4.2.3. [Expression and Function Best Practices](#423-expression-and-function-best-practices)
     
-        - 4.2.4. [Real-world Examples and Use Cases](#424-real-world-examples-and-use-cases)  
+    - 4.2.4. [Real-world Examples and Use Cases](#424-real-world-examples-and-use-cases)  
   
 
 5. [Resource Lifecycle in Terraform](#5-resource-lifecycle-in-terraform)
