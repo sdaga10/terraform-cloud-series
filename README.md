@@ -4,8 +4,11 @@
 1. [Introduction to Infrastructure as Code (IaC) and Terraform](#1-introduction-to-infrastructure-as-code-iac-and-terraform)
    
     1.1. [What is Infrastructure as Code?](#11-what-is-infrastructure-as-code)
+   
     1.2. [Why Terraform?](#12-why-terraform)
+   
     1.3. [Key Terraform Concepts](#13-key-terraform-concepts)
+   
     1.4. [Difference between Terraform and Ansible and Why to Choose Terraform for Cloud IaC](#14-difference-between-terraform-and-ansible-and-why-to-choose-terraform-for-cloud-iac)
 
 3. [Getting Started with Terraform](#2-getting-started-with-terraform)
