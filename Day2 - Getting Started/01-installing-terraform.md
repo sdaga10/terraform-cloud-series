@@ -31,37 +31,21 @@ Follow these steps to install Terraform on your machine:
    ```bash
    terraform --version
 
-   For macOS:
-Install with Homebrew:
+### For macOS:
+
+**Install with Homebrew:**
+
 Open a terminal and run the following Homebrew command to install Terraform:
 
-bash
-Copy code
+```bash
 brew install terraform
-Verify Installation:
-After the installation is complete, run the following command to verify the installation:
 
-bash
-Copy code
+**Verify Installation:**
+   Open a new command prompt and run the following command to verify that Terraform is installed:
+
+```bash
 terraform --version
-For Linux:
-Download Terraform:
-Use the following commands to download and install Terraform:
 
-bash
-Copy code
-wget https://releases.hashicorp.com/terraform/<VERSION>/terraform_<VERSION>_linux_amd64.zip
-unzip terraform_<VERSION>_linux_amd64.zip
-sudo mv terraform /usr/local/bin/
-Replace <VERSION> with the desired Terraform version.
-
-Verify Installation:
-Verify the installation by running:
-
-bash
-Copy code
-terraform --version
-Conclusion
 Once you have successfully installed Terraform, you are ready to start creating and managing your infrastructure using Terraform configurations.
 
 vbnet
