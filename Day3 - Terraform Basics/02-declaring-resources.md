@@ -12,11 +12,11 @@ resource "aws_instance" "example" {
 ```
 Here's a breakdown of the elements in the resource declaration:
 
-Resource Type (aws_instance): Specifies the type of resource to create. In this example, it's an AWS EC2 instance.
+**Resource Type (aws_instance):** Specifies the type of resource to create. In this example, it's an AWS EC2 instance.
 
-Resource Name (example): A local name for the resource instance. You'll refer to this name when interacting with the resource in other parts of your configuration.
+**Resource Name (example):** A local name for the resource instance. You'll refer to this name when interacting with the resource in other parts of your configuration.
 
-Resource Configuration: Key-value pairs that define the configuration of the resource. In this case, it specifies the Amazon Machine Image (AMI) and the instance type.
+**Resource Configuration:** Key-value pairs that define the configuration of the resource. In this case, it specifies the Amazon Machine Image (AMI) and the instance type.
 
 ### Azure Resource Declaration Example
 ```hcl
