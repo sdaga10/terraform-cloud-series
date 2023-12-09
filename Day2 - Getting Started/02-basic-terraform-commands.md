@@ -2,7 +2,7 @@
 
 Terraform provides a set of commands that allow you to interact with and manage your infrastructure. In this section, we'll cover some of the basic Terraform commands you'll frequently use.
 
-## Initializing a Terraform Configuration
+**Initializing a Terraform Configuration**
 
 Before you can apply or plan changes to your infrastructure, you need to initialize your Terraform configuration. Use the following command:
 
