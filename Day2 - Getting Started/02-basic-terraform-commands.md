@@ -11,7 +11,7 @@ terraform init
 
 This command downloads the necessary providers and sets up the working directory.
 
-## Creating an Execution Plan
+### Creating an Execution Plan
 To see what changes Terraform will apply to your infrastructure, you can create an execution plan using:
 
 terraform plan
