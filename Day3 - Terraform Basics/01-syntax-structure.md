@@ -14,3 +14,12 @@ resource "aws_instance" "example" {
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
 }
+```
+
+**Configuration Structure**
+
+Blocks: The basic unit of composition in Terraform. Blocks represent different constructs, such as resources, providers, or variables.
+
+Arguments: Key-value pairs inside a block define the configuration for that block. For example, ami = "ami-0c55b159cbfafe1f0".
+
+Comments: Lines starting with # are comments.
