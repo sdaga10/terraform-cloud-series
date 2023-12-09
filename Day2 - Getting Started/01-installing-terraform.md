@@ -41,14 +41,28 @@ Open a terminal and run the following Homebrew command to install Terraform:
 brew install terraform
 
 **Verify Installation:**
-   Open a new command prompt and run the following command to verify that Terraform is installed:
+Open a new command prompt and run the following command to verify that Terraform is installed:
 
 ```bash
 terraform --version
 
-Once you have successfully installed Terraform, you are ready to start creating and managing your infrastructure using Terraform configurations.
 
-vbnet
-Copy code
+### For Linux:
 
-Replace `<VERSION>` with the specific version of Terraform you want to in
+**Download Terraform:**
+
+Open a terminal and run the following command to install Terraform:
+
+wget https://releases.hashicorp.com/terraform/<VERSION>/terraform_<VERSION>_linux_amd64.zip
+unzip terraform_<VERSION>_linux_amd64.zip
+sudo mv terraform /usr/local/bin/
+
+Replace <VERSION> with the desired Terraform version.
+
+**Verify Installation:**
+Open a new command prompt and run the following command to verify that Terraform is installed:
+
+```bash
+terraform --version
+
+
