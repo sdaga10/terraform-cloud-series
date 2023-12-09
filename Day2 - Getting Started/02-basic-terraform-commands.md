@@ -6,7 +6,7 @@ Terraform provides a set of commands that allow you to interact with and manage 
 
 Before you can apply or plan changes to your infrastructure, you need to initialize your Terraform configuration. Use the following command:
 
-terraform init
+#terraform init
 
 This command downloads the necessary providers and sets up the working directory.
 
@@ -14,21 +14,21 @@ This command downloads the necessary providers and sets up the working directory
 
 To see what changes Terraform will apply to your infrastructure, you can create an execution plan using:
 
-terraform plan
+#terraform plan
 
 This command analyzes your configuration and generates an execution plan, which outlines the changes Terraform will make.
 
 **Applying Changes**
 
 Once you're satisfied with the execution plan, you can apply the changes to your infrastructure:
-```bash```
-terraform apply
+
+#terraform apply
 
 **Viewing Resource State**
 
 To view the current state of your Terraform-managed infrastructure, use:
 
-terraform show
+#terraform show
 
 This command provides a human-readable output of the current resource state.
 
@@ -36,7 +36,7 @@ This command provides a human-readable output of the current resource state.
 
 If you want to destroy the resources defined in your configuration, use:
 
-terraform destroy
+#terraform destroy
 
 Terraform will prompt you to confirm the destruction of resources.
 
