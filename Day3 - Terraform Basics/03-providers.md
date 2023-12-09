@@ -24,11 +24,12 @@ Here's an explanation of the elements in the provider configuration:
 
 For the Azure provider:
 
-# Azure Provider Configuration
+```
+# AWS Provider Configuration
 provider "azurerm" {
   features = {}
 }
-
+```
 Here's an explanation of the elements in the Azure provider configuration:
 
 **Provider Type (azurerm):** Specifies the type of provider, indicating the cloud or infrastructure service. In this example, it's the Azure provider.
