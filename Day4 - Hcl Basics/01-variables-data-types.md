@@ -30,38 +30,21 @@ In this example:
 
 Terraform supports several data types, including:
 
-String: A sequence of characters.
-Number: Numeric values.
-Bool: Boolean values (true/false).
-List: An ordered collection of values.
-Map: A collection of key-value pairs.
-Object: A complex data type representing an object with attributes.
-Here's an example of using different data types:
+**String:** A sequence of characters.
+
+**Number:** Numeric values.
+
+**Bool:** Boolean values (true/false).
+
+**List:** An ordered collection of values.
+
+**Map:** A collection of key-value pairs.
+
+**Object:** A complex data type representing an object with attributes.
+
+Here's an example of using different data types in Terraform for both AWS and Azure :
 
 # AWS Variable Example
-variable "aws_region" {
-  description = "The AWS region where resources will be provisioned."
-  type        = string
-  default     = "us-west-2"
-}
-
-variable "aws_instance_types" {
-  description = "List of AWS instance types for a multi-tier application."
-  type        = list(string)
-  default     = ["t2.micro", "t3.micro"]
-}
-
-variable "aws_tags" {
-  description = "Tags for AWS resources."
-  type        = map(string)
-  default     = {
-    Name        = "example-instance"
-    Environment = "dev"
-    Owner       = "terraform"
-  }
-}
-
-Below is an example of using variables with different data types in Terraform for both AWS and Azure:
 
 ```
 # Azure Variable Example
