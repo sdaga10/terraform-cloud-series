@@ -44,9 +44,30 @@ Terraform supports several data types, including:
 
 Here's an example of using different data types in Terraform for both AWS and Azure :
 
-# AWS Variable Example
-
 ```
+# AWS Variable Example
+variable "aws_region" {
+  description = "The AWS region where resources will be provisioned."
+  type        = string
+  default     = "us-west-2"
+}
+
+variable "aws_instance_types" {
+  description = "List of AWS instance types for a multi-tier application."
+  type        = list(string)
+  default     = ["t2.micro", "t3.micro"]
+}
+
+variable "aws_tags" {
+  description = "Tags for AWS resources."
+  type        = map(string)
+  default     = {
+    Name        = "example-instance"
+    Environment = "dev"
+    Owner       = "terraform"
+  }
+}
+
 # Azure Variable Example
 variable "azure_region" {
   description = "The Azure region where resources will be provisioned."
