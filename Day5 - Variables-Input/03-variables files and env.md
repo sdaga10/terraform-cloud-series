@@ -18,10 +18,12 @@ aws_instance_type   = "t3.micro"
 azure_location      = "West US"
 azure_vm_size       = "Standard_B2s"
 ```
-5.3.2. Environments
+
+## 5.3.2. Environments
+
 Environments in Terraform represent different deployment scenarios or stages (e.g., development, staging, production). By organizing your configurations based on environments, you can maintain consistency and adapt settings for specific contexts.
 
-Directory Structure for Environments
+### Directory Structure for Environments
 ```lua
 |-- environments/
 |   |-- dev/
@@ -56,7 +58,7 @@ variable "azure_vm_size" {}
 # Other resource configurations...
 ```
 
-5.3.3. Running Terraform with Variable Files
+## 5.3.3. Running Terraform with Variable Files
 When running Terraform commands, you specify the variable file for the targeted environment.
 
 ```bash
