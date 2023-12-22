@@ -67,9 +67,13 @@ output "module_instance_ids" {
 ## 7.2.3. Variable and Output Best Practices
 
 **Documentation:** Provide clear and concise documentation for each variable and output, including descriptions and types.
+
 **Defaults:** Use default values for variables when possible to provide sensible defaults for users.
+
 **Naming:** Follow a consistent naming convention for variables and outputs to enhance readability.
+
 **Explicit Dependencies:** Clearly define dependencies between variables and outputs.
+
 **Testing:** Include tests for modules, especially if they are shared within an organization.
 
 Using variables and outputs effectively enhances the reusability and maintainability of Terraform modules.
