@@ -1,7 +1,5 @@
 # Introduction - Interview Question
 
-## Question:
-
 1. **What is Infrastructure as Code (IaC), and how does it contribute to modern IT practices?**
 
 ## Answer:
