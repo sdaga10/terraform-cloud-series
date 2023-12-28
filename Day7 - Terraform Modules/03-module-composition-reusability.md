@@ -66,9 +66,13 @@ module "web_app" {
 ## 7.3.3. Best Practices
 
 **Modular Design:** Break down infrastructure into small, focused modules.
+
 **Standard Interfaces:** Define clear input and output variables for modules.
+
 **Documentation:** Provide detailed documentation for module usage.
+
 **Testing:** Include tests for modules to ensure reliability.
+
 **Semantic Versioning:** Follow semantic versioning for module releases.
 
 By mastering module composition and reusability, you can build a scalable and maintainable infrastructure with Terraform.
