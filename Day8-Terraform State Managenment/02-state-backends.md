@@ -70,8 +70,8 @@ terraform {
 
 2. **Remote Locking:**
 
-   Utilize backend-specific mechanisms for state locking to prevent concurrent modifications.
+    - Utilize backend-specific mechanisms for state locking to prevent concurrent modifications.
 
 3.** Backup and Versioning:**
 
-   Regularly back up and version the state file for recovery and auditability.
+   - Regularly back up and version the state file for recovery and auditability.
