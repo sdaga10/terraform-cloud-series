@@ -64,14 +64,14 @@ terraform {
 
 ### Best Practices
 
-**Encryption:**
+1. Encryption:
 
-Enable encryption in the backend configuration to secure sensitive information.
+   Enable encryption in the backend configuration to secure sensitive information.
 
-**Remote Locking:**
+2. Remote Locking:
 
-Utilize backend-specific mechanisms for state locking to prevent concurrent modifications.
+   Utilize backend-specific mechanisms for state locking to prevent concurrent modifications.
 
-**Backup and Versioning:**
+3. Backup and Versioning:
 
-Regularly back up and version the state file for recovery and auditability.
+   Regularly back up and version the state file for recovery and auditability.
