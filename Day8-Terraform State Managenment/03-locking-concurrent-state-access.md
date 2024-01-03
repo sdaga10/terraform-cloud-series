@@ -45,7 +45,8 @@ terraform {
 }
 ```
 
-Example: Azure Storage Remote Locking
+#### Example: Azure Storage Remote Locking
+
 ```
 terraform {
   backend "azurerm" {
