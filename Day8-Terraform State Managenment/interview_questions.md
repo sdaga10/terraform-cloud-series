@@ -4,20 +4,17 @@
 - Terraform state is a representation of the infrastructure being managed by Terraform. It contains information about resources, their attributes, and dependencies. It is crucial because it allows Terraform to plan and execute changes accurately by understanding the current state of the infrastructure.
 
 2. **Explain the purpose of the Terraform state file (terraform.tfstate).**
-Answer:
-The terraform.tfstate file is a JSON file that serves as the persistent storage of the current state of the infrastructure. It maps Terraform resources to real-world resources and records their attributes. It helps Terraform understand what has been created and manage updates accordingly.
+- The terraform.tfstate file is a JSON file that serves as the persistent storage of the current state of the infrastructure. It maps Terraform resources to real-world resources and records their attributes. It helps Terraform understand what has been created and manage updates accordingly.
 
 3. **How does Terraform use state to track resources and manage changes in infrastructure?**
-Answer:
-Terraform uses the state to track the attributes of resources created in the infrastructure. During operations like terraform apply, it compares the desired state with the current state stored in the terraform.tfstate file. This comparison informs Terraform about the changes needed to reach the desired state.
+- Terraform uses the state to track the attributes of resources created in the infrastructure. During operations like terraform apply, it compares the desired state with the current state stored in the terraform.tfstate file. This comparison informs Terraform about the changes needed to reach the desired state.
 
 4. **What challenges can arise in a collaborative environment without proper state management in Terraform?**
-Answer:
-In a collaborative environment, challenges can arise without proper state management, such as:
+- In a collaborative environment, challenges can arise without proper state management, such as:
 
-Concurrent access issues leading to conflicts.
-Difficulty in tracking changes made by different users.
-Lack of coordination in resource modifications.
+    Concurrent access issues leading to conflicts.
+    Difficulty in tracking changes made by different users.
+    Lack of coordination in resource modifications.
 
 5. **What are the potential risks of not using state files when working with Terraform?**
 Answer:
