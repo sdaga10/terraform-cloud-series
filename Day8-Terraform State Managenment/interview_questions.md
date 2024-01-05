@@ -63,8 +63,3 @@ Remote state locking: Utilizes a remote backend to coordinate locks centrally, b
 - Regularly back up state files.
 - Establish clear procedures for state management in a team.
 
-Use a remote backend for collaboration.
-Implement state locking for concurrent access.
-Enable encryption for sensitive data.
-Regularly back up state files.
-Establish clear procedures for state management in a team.
