@@ -1,8 +1,7 @@
 # Terraform State Management Interview Questions and Answers
 
 1. **What is Terraform state, and why is it essential in infrastructure provisioning?**
-Answer:
-Terraform state is a representation of the infrastructure being managed by Terraform. It contains information about resources, their attributes, and dependencies. It is crucial because it allows Terraform to plan and execute changes accurately by understanding the current state of the infrastructure.
+- Terraform state is a representation of the infrastructure being managed by Terraform. It contains information about resources, their attributes, and dependencies. It is crucial because it allows Terraform to plan and execute changes accurately by understanding the current state of the infrastructure.
 
 2. **Explain the purpose of the Terraform state file (terraform.tfstate).**
 Answer:
