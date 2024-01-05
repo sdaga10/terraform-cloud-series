@@ -30,7 +30,7 @@
 6. **Describe the process of acquiring a lock in Terraform state management.**
 - The process involves acquiring a lock before performing operations like terraform apply. Terraform checks for the existence of a lock, and if one is not present, it acquires the lock. This prevents multiple instances from modifying the state simultaneously.
 
-7.**What is state locking, and why is it crucial in a multi-user or automated deployment scenario?**
+7. **What is state locking, and why is it crucial in a multi-user or automated deployment scenario?**
 - State locking prevents concurrent modifications by acquiring and releasing locks. In multi-user or automated scenarios, state locking is crucial to avoid conflicts, data corruption, and ensure the consistency of changes made to the infrastructure.
 
 8. **Explain the difference between local file-based locking and remote state locking in Terraform.**
