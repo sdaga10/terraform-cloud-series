@@ -7,7 +7,7 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
 
 1. [Introduction to Infrastructure as Code (IaC) and Terraform](#1-introduction-to-infrastructure-as-code-iac-and-terraform)
    
-    1.1. [What is Infrastructure as Code?](#11-what-is-infrastructure-as-code)
+    1.1. [What is Infrastructure as Code?](##1.1-what-is-infrastructure-as-code)
    
     1.2. [Why Terraform?](#12-why-terraform)
    
