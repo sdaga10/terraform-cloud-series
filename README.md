@@ -92,12 +92,10 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
     8.3. [Locking and Concurrent State Access](#83-locking-and-concurrent-state-access)  
 
 9. [Terraform Providers and Provisioners](#9-terraform-providers-and-provisioners)
-    
-    9.1. [Custom Providers](#91-custom-providers)
    
-    9.2. [Provisioners and their use cases](#92-provisioners-and-their-use-cases)
+    9.1. [Provisioners and their use cases](#92-provisioners-and-their-use-cases)
    
-    9.3. [Remote Backends and Remote Execution](#93-remote-backends-and-remote-execution)  
+    9.2. [Remote Backends and Remote Execution](#93-remote-backends-and-remote-execution)  
 
 10. [Advanced Terraform Features](#10-advanced-terraform-features)
     
