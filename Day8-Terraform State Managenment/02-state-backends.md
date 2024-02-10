@@ -72,6 +72,6 @@ terraform {
 
     - Utilize backend-specific mechanisms for state locking to prevent concurrent modifications.
 
-3.** Backup and Versioning:**
+3. **Backup and Versioning:**
 
    - Regularly back up and version the state file for recovery and auditability.
