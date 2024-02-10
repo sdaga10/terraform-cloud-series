@@ -45,34 +45,37 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
    
     - 4.2.3. [Expression and Function Best Practices](#423-expression-and-function-best-practices)
     
-    - 4.2.4. [Real-world Examples and Use Cases](#424-real-world-examples-and-use-cases)  
+    - 4.2.4. [Real-world Examples and Use Cases](#424-real-world-examples-and-use-cases)
+
+
+5. [Variables and Input in Terraform](#6-variables-and-input-in-terraform)
+    
+    5.1. [Input Variables](#61-input-variables)
+   
+    5.2. [Output Variables](#62-output-variables)
+   
+    5.3. [Variable Files and Environments](#63-variable-files-and-environments)  
   
 
-5. [Resource Lifecycle in Terraform](#5-resource-lifecycle-in-terraform)
+6. [Resource Lifecycle in Terraform](#5-resource-lifecycle-in-terraform)
  
-    5.1. [Resource Declaration and Configuration](#51-resource-declaration-and-configuration)
+    6.1. [Resource Declaration and Configuration](#51-resource-declaration-and-configuration)
    
-    5.2. [Resource Provisioning Phases](#52-resource-provisioning-phases)
+    6.2. [Resource Provisioning Phases](#52-resource-provisioning-phases)
    
-    5.3. [Resource Modification and Updates](#53-resource-modification-and-updates)
+    6.3. [Resource Modification and Updates](#53-resource-modification-and-updates)
    
-    5.4. [Resource Dependencies and Order of Execution](#54-resource-dependencies-and-order-of-execution)
+    6.4. [Resource Dependencies and Order of Execution](#54-resource-dependencies-and-order-of-execution)
    
-    5.5. [Resource Destruction](#55-resource-destruction)
+    6.5. [Resource Destruction](#55-resource-destruction)
    
-    5.6. [Resource Meta-Arguments](#56-resource-meta-arguments)
+    6.6. [Resource Meta-Arguments](#56-resource-meta-arguments)
    
-    5.7. [State Management and the Resource Lifecycle](#57-state-management-and-the-resource-lifecycle)
+    6.7. [State Management and the Resource Lifecycle](#57-state-management-and-the-resource-lifecycle)
    
-    5.8. [Resource Rollbacks and Recovery](#58-resource-rollbacks-and-recovery)  
+    6.8. [Resource Rollbacks and Recovery](#58-resource-rollbacks-and-recovery)  
 
-6. [Variables and Input in Terraform](#6-variables-and-input-in-terraform)
-    
-    6.1. [Input Variables](#61-input-variables)
-   
-    6.2. [Output Variables](#62-output-variables)
-   
-    6.3. [Variable Files and Environments](#63-variable-files-and-environments)  
+
 
 7. [Terraform Modules](#7-terraform-modules)
     
