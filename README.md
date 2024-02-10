@@ -101,10 +101,7 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
     10.2. [Dynamic Blocks](#102-dynamic-blocks)
     
     10.3. [Meta-Arguments](#103-meta-arguments)  
-
+   
+    10.4. [Functions and Expressions](#151-funcation-and-expressions)
     
-    15.1. [Terraform Modules Registry](#151-terraform-modules-registry)
-    
-    15.2. [Contributing to the Terraform Community](#152-contributing-to-the-terraform-community)
-    
-    15.3. [External Tools and Integrations](#153-external-tools-and-integrations)  
+  
