@@ -48,7 +48,7 @@ terraform {
 }
 ```
 
-Example: Azure Storage State Backend
+#### Example: Azure Storage State Backend
 ```
 terraform {
   backend "azurerm" {
