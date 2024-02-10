@@ -71,11 +71,6 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
    
     6.6. [Resource Meta-Arguments](#56-resource-meta-arguments)
    
-    6.7. [State Management and the Resource Lifecycle](#57-state-management-and-the-resource-lifecycle)
-   
-    6.8. [Resource Rollbacks and Recovery](#58-resource-rollbacks-and-recovery)  
-
-
 
 7. [Terraform Modules](#7-terraform-modules)
     
