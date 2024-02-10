@@ -102,41 +102,6 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
     
     10.3. [Meta-Arguments](#103-meta-arguments)  
 
-11. [Terraform Testing and Continuous Integration](#11-terraform-testing-and-continuous-integration)
-    
-    11.1. [Unit Testing Terraform Code](#111-unit-testing-terraform-code)
-    
-    11.2. [Integration Testing](#112-integration-testing)
-    
-    11.3. [CI/CD with Terraform](#113-cicd-with-terraform)  
-
-12. [Best Practices and Patterns](#12-best-practices-and-patterns)
-    
-    12.1. [Code Structure and Organization](#121-code-structure-and-organization)
-    
-    12.2. [Naming Conventions](#122-naming-conventions)
-    
-    12.3. [Security Best Practices](#123-security-best-practices)
-    
-    12.4. [Performance Optimization](#124-performance-optimization)  
-
-13. [Terraform in Production](#13-terraform-in-production)
-    
-    13.1. [Managing Large Infrastructures](#131-managing-large-infrastructures)
-    
-    13.2. [Monitoring and Logging](#132-monitoring-and-logging)
-    
-    13.3. [Scaling and Performance Considerations](#133-scaling-and-performance-considerations)  
-
-14. [Troubleshooting and Debugging](#14-troubleshooting-and-debugging)
-    
-    14.1. [Error Messages and Common Issues](#141-error-messages-and-common-issues)
-    
-    14.2. [Debugging Terraform Code](#142-debugging-terraform-code)
-    
-    14.3. [Terraform Graph and Visualization](#143-terraform-graph-and-visualization)  
-
-15. [Community and Ecosystem](#15-community-and-ecosystem)
     
     15.1. [Terraform Modules Registry](#151-terraform-modules-registry)
     
