@@ -49,3 +49,31 @@ resource "azurerm_resource_group" "example" {
   name     = "example-resources"
   location = "West Europe"
 }
+```
+
+In this example, the azurerm_subnet.example resource depends on the azurerm_virtual_network.example, ensuring that the virtual network is created before the subnet.
+
+### AWS Example 
+
+```hcl
+
+resource "aws_instance" "example" {
+  ami           = "ami-12345678"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "example-instance"
+  }
+
+  lifecycle {
+    ignore_changes = [
+      tags.Name
+    ]
+  }
+}
+```
+In this example, the ignore_changes meta-argument is used within the lifecycle block of an AWS EC2 instance resource. It specifies that changes to the Name tag should be ignored during updates to the instance. This ensures that Terraform does not attempt to modify the Name tag when the resource is updated, preserving its value.
+
+### Conclusion
+
+Meta-arguments provide essential capabilities for managing resource dependencies, lifecycle behavior, and configuration customization in Terraform. By leveraging meta-arguments effectively, you can ensure proper sequencing, flexibility, and control in your infrastructure provisioning and management workflows.
