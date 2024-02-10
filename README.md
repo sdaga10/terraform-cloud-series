@@ -32,7 +32,6 @@ Welcome to the Terraform Cloud Series! This repository contains a collection of 
    
     3.3. [Providers in Terraform](#33-providers-in-terraform)
    
-    3.4. [Understanding the Basics](#34-understanding-the-basics)  
 
 4. [Terraform Configuration Language (HCL)](#4-terraform-configuration-language-hcl)
    
