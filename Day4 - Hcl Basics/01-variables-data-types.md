@@ -1,4 +1,4 @@
-# 4 variables-and-data-types
+# 4. variables-and-data-types
 
 In Terraform, variables are used to parameterize your configurations, allowing for flexibility and reusability. They enable you to input values from external sources or dynamically change values based on different use cases. Additionally, Terraform supports various data types that allow you to define the kind of values a variable can hold.
 
